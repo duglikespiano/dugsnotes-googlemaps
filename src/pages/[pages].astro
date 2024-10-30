@@ -1,0 +1,14 @@
+---
+import AllLayout from '../layouts/AllLayout.astro';
+
+export function getStaticPaths() {
+	return [{ params: { pages: '', subtitle: '' } }];
+}
+
+const { subtitle } = Astro.params;
+---
+
+<AllLayout>
+	<h2 slot="subtitle">{subtitle}</h2>
+	<div>pages</div>
+</AllLayout>

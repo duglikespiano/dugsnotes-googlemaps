@@ -1,0 +1,23 @@
+---
+import AllLayout from '../layouts/AllLayout.astro';
+
+type routeObject = {
+	url: string;
+	subtitle: string;
+};
+
+const routesArray: routeObject[] = [];
+---
+
+<AllLayout>
+	<h2 slot="subtitle">Articles list</h2>
+	<ul>
+		{
+			routesArray.map((item) => (
+				<li>
+					<a href={item.url}>{item.subtitle}</a>
+				</li>
+			))
+		}
+	</ul>
+</AllLayout>
