@@ -1,0 +1,18 @@
+---
+import AllLayout from '../layouts/AllLayout.astro';
+import InitializingGooglemaps from '../components/1_initializing_googlemaps.astro';
+
+export function getStaticPaths() {
+	return [{ params: { page: '1_initializing_googlemaps' }, props: { subtitle: '1_initializing Googlemaps' } }];
+}
+
+const { page } = Astro.params;
+const { subtitle } = Astro.props;
+
+const id = +page.split('_')[0];
+---
+
+<AllLayout>
+	<h2 slot="subtitle">{subtitle}</h2>
+	{id === 1 && <InitializingGooglemaps />}
+</AllLayout>

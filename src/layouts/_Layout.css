@@ -1,20 +1,23 @@
 body {
-	display: flex;
-	width: 100%;
-	min-height: 100vh;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@apply flex w-full min-h-dvh flex-col justify-center items-center p-20;
 }
 
 a {
-	display: block;
+	@apply block;
 }
 
 h1 {
-	font-size: 2.5rem;
+	@apply text-5xl;
+}
+
+main {
+	@apply w-full text-center;
 }
 
 h2 {
-	font-size: 2rem;
+	@apply text-4xl mt-4;
+}
+
+#map {
+	@apply w-full h-[60vh] mt-8;
 }
