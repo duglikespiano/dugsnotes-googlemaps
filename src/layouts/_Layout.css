@@ -18,6 +18,7 @@ h2 {
 	@apply text-4xl mt-4;
 }
 
-#map {
+#map,
+#map2 {
 	@apply w-full h-[60vh] mt-8;
 }
