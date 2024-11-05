@@ -36,3 +36,6 @@
    </br>
 
 ### 3. 내용
+
+1. Initializing googlemaps
+2. Setting markers

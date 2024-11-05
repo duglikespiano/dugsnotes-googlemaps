@@ -36,3 +36,6 @@
    </br>
 
 ### 3. 内容
+
+1. Initializing googlemaps
+2. Setting markers
