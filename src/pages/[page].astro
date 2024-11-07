@@ -3,12 +3,14 @@ import AllLayout from '../layouts/AllLayout.astro';
 import InitializingGooglemaps from '../components/1_initializing_googlemaps.astro';
 import SettingMarkers from '../components/2_setting_markers.astro';
 import DrawingAPolyline from '../components/3_drawing_a_polyline.astro';
+import DrawingAShape from '../components/4_drawing_a_shape.astro';
 
 export function getStaticPaths() {
 	return [
 		{ params: { page: '1_initializing_googlemaps' }, props: { subtitle: '1. initializing Googlemaps' } },
 		{ params: { page: '2_setting_markers' }, props: { subtitle: '2. setting markers' } },
 		{ params: { page: '3_drawing_a_polyline' }, props: { subtitle: '3. drawing a polyline' } },
+		{ params: { page: '4_drawing_a_shape' }, props: { subtitle: '4. drawing a shape' } },
 	];
 }
 
@@ -22,5 +24,6 @@ const id = +page.split('_')[0];
 	{id === 1 && <InitializingGooglemaps />}
 	{id === 2 && <SettingMarkers />}
 	{id === 3 && <DrawingAPolyline />}
-	<script src="../script/3_drawing_a_polyline"></script>
+	{id === 4 && <DrawingAShape />}
+	<script src="../script/4_drawing_a_shape"></script>
 </AllLayout>
