@@ -5,6 +5,7 @@ import SettingMarkers from '../components/2_setting_markers.astro';
 import DrawingAPolyline from '../components/3_drawing_a_polyline.astro';
 import DrawingAShape from '../components/4_drawing_a_shape.astro';
 import DrawingAnImage from '../components/5_drawing_an_image.astro';
+import MapEvents from '../components/6_map_events.astro';
 
 export function getStaticPaths() {
 	return [
@@ -13,6 +14,7 @@ export function getStaticPaths() {
 		{ params: { page: '3_drawing_a_polyline' }, props: { subtitle: '3. drawing a polyline' } },
 		{ params: { page: '4_drawing_a_shape' }, props: { subtitle: '4. drawing a shape' } },
 		{ params: { page: '5_drawing_an_image' }, props: { subtitle: '5. drawing an image' } },
+		{ params: { page: '6_map_events' }, props: { subtitle: '6. map events' } },
 	];
 }
 
@@ -28,5 +30,6 @@ const id = +page.split('_')[0];
 	{id === 3 && <DrawingAPolyline />}
 	{id === 4 && <DrawingAShape />}
 	{id === 5 && <DrawingAnImage />}
-	<script src="../script/5_drawing_an_image"></script>
+	{id === 6 && <MapEvents />}
+	<script src="../script/6_map_events"></script>
 </AllLayout>
