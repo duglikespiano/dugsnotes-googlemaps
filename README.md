@@ -39,3 +39,8 @@
 
 1. Initializing googlemaps
 2. Setting markers
+3. Drawing a polyline
+4. Drawing a shape
+5. Drawing an image
+6. Map events
+7. Displaying map info
