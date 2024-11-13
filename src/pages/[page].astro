@@ -7,6 +7,7 @@ import DrawingAShape from '../components/4_drawing_a_shape.astro';
 import DrawingAnImage from '../components/5_drawing_an_image.astro';
 import MapEvents from '../components/6_map_events.astro';
 import DisplayingMapInfo from '../components/7_displaying_map_info.astro';
+import DisplayingUserLocation from '../components/8_displaying_user_location.astro';
 
 export function getStaticPaths() {
 	return [
@@ -17,6 +18,7 @@ export function getStaticPaths() {
 		{ params: { page: '5_drawing_an_image' }, props: { subtitle: '5. drawing an image' } },
 		{ params: { page: '6_map_events' }, props: { subtitle: '6. map events' } },
 		{ params: { page: '7_displaying_map_info' }, props: { subtitle: '7. displaying map info' } },
+		{ params: { page: '8_displaying_user_location' }, props: { subtitle: '8. displaying user location' } },
 	];
 }
 
@@ -34,5 +36,6 @@ const id = +page.split('_')[0];
 	{id === 5 && <DrawingAnImage />}
 	{id === 6 && <MapEvents />}
 	{id === 7 && <DisplayingMapInfo />}
-	<script src="../script/7_displaying_map_info"></script>
+	{id === 8 && <DisplayingUserLocation />}
+	<script src="../script/8_displaying_user_location"></script>
 </AllLayout>

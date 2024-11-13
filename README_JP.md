@@ -44,3 +44,4 @@
 5. Drawing an image
 6. Map events
 7. Displaying map info
+8. Displaying user location
