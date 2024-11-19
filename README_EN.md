@@ -24,7 +24,6 @@
   <img src="https://img.shields.io/badge/astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white">
   <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white">
   <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
-  <img src="https://img.shields.io/badge/tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
   </br>
   </br>
 
@@ -32,7 +31,6 @@
 
 1. To learn how to handle Googlemaps API
 2. To learn how to handle Astro
-3. To learn how to handle TailwindCSS
    </br>
    </br>
 

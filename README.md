@@ -24,7 +24,6 @@
   <img src="https://img.shields.io/badge/astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white">
   <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white">
   <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
-  <img src="https://img.shields.io/badge/tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
   </br>
   </br>
 
@@ -32,7 +31,6 @@
 
 1. Googlemaps API 활용 능력을 익힐 것
 2. Astro 활용 능력을 익힐 것
-3. TailwindCSS 활용 능력을 익힐 것
    </br>
    </br>
 
