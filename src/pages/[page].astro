@@ -9,6 +9,7 @@ import MapEvents from '../components/6_map_events.astro';
 import DisplayingMapInfo from '../components/7_displaying_map_info.astro';
 import DisplayingUserLocation from '../components/8_displaying_user_location.astro';
 import DataLayer from '../components/9_data_layer.astro';
+import Kml from '../components/10_kml.astro';
 
 export function getStaticPaths() {
 	return [
@@ -21,6 +22,7 @@ export function getStaticPaths() {
 		{ params: { page: '7_displaying_map_info' }, props: { subtitle: '7. displaying map info' } },
 		{ params: { page: '8_displaying_user_location' }, props: { subtitle: '8. displaying user location' } },
 		{ params: { page: '9_data_layer' }, props: { subtitle: '9. data layer' } },
+		{ params: { page: '10_kml' }, props: { subtitle: '10_kml' } },
 	];
 }
 
@@ -40,6 +42,7 @@ const id = +page.split('_')[0];
 	{id === 7 && <DisplayingMapInfo />}
 	{id === 8 && <DisplayingUserLocation />}
 	{id === 9 && <DataLayer />}
+	{id === 10 && <Kml />}
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script src="../script/9_data_layer"></script>
+	<script src="../script/10_kml"></script>
 </AllLayout>
