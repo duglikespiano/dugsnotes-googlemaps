@@ -46,3 +46,4 @@
 8. Displaying user location
 9. Data layer
 10. KML
+11. Heatmap
