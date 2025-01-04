@@ -16,7 +16,7 @@
 
 - Project title : dugsnotes_googlemaps
 - Related URL : https://www.udemy.com/course/google-maps-javascript-api/
-- Period : Sep 15 2024 - In progress
+- Period : Sep 15 2024 - Jan 5 2025
 - Member(s) : Dug Park
 - Tech stack : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
@@ -47,3 +47,4 @@
 9. Data layer
 10. KML
 11. Heatmap
+12. Traffic layer

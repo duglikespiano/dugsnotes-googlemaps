@@ -16,7 +16,7 @@
 
 - Project タイトル : dugsnotes_googlemaps
 - 関連 URL : https://www.udemy.com/course/google-maps-javascript-api/
-- 期間 : 2024.10.30 - 進行中
+- 期間 : 2024.10.30 - 2025.01.05
 - 人員 : 1 人
 - 技術スタック : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
@@ -47,3 +47,4 @@
 9. Data layer
 10. KML
 11. Heatmap
+12. Traffic layer
